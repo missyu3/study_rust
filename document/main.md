@@ -23,6 +23,24 @@ $ rustc app/main.rs
   - rustfmt
 - コンパイル方法
   - `$ rustc app/main.rs`
-- Cargo
+
+### Cargo
+- 概要
   - ビルドシステム
   - パッケージマネージャー
+- コマンド
+  - cargo new hello_cargo --bin
+    - --bin
+      - 実行可能なアプリケーションを作成するオプション
+  - cargo build
+    - コンパイル
+    - target/debug配下に実行ファイルを作成する。
+  - cargo build --release
+    - リリース用ビルド
+    - コンパイル時間が伸びる
+    - 実行時間が速くなる
+  - cargo run
+    - 同時にコンパイルと実行を行う
+  - cargo check
+    - コンパイルは行わないが、コンパイル可能かCheckする
+  - 
