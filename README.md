@@ -4,4 +4,5 @@
  - https://doc.rust-jp.rs/book-ja/ch01-02-hello-world.html
 - その他
   - Remote Container を使用する
+- プログラミングノートに関してはmain.mdに記載
 
